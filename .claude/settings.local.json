@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/tmp/bot_backup.py)",
+      "Bash(sqlite3:*)",
+      "Bash(python check_siena.py:*)",
+      "Bash(python:*)",
+      "Bash(ssh:*)",
+      "Bash(scp:*)",
+      "Bash(dir:*)",
+      "Bash(cd:*)",
+      "Bash(gzip:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
